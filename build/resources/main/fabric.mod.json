@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "squidhearts",
+  "version": "1.0.0",
+  "name": "SquidHearts",
+  "description": "mod de corazones SCG4",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/squidhearts/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.me.nondied.squidhearts.client.SquidheartsDataGenerator"
+    ],
+    "client": [
+      "com.me.nondied.squidhearts.client.SquidheartsClient"
+    ],
+    "main": [
+      "com.me.nondied.squidhearts.Squidhearts"
+    ]
+  },
+  "mixins": [
+    "squidhearts.mixins.json",
+    {
+      "config": "squidhearts.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "fabric-api": "*",
+    "minecraft": "1.21.1"
+  }
+}

@@ -1,0 +1,26 @@
+/experience add Player628 10 levels
+/difficulty hard
+/experience add Player628 10 levels
+/experience add Player46 10 levels
+/experience set Player46 456
+/experience set Player46 67 levels
+/difficulty peaceful
+/difficulty hard
+/time set day
+/gamemode survival
+/kill
+/experience set Player46 67 levels
+/experience set Player278 67 levels
+/difficulty peaceful
+/effect give Player803 minecraft:instant_damage
+/summon minecraft:slime
+/gamemode h
+/difficulty hard
+/summon minecraft:slime
+/difficulty peaceful
+/effect give Player803 minecraft:instant_damage
+/experience set Player278 67 levels
+/experience set @a 67 levels
+/kill
+/experience set @a 67 levels
+/difficulty hard
