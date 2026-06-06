@@ -32,3 +32,13 @@
 /squidhearts experience 666
 /squidhearts experience 67
 /squidhearts reset
+/squidhearts experience 67
+/squidhearts SCG4
+/squidhearts SCG3
+/squidhearts SCG2
+/squidhearts SCG4
+/squidhearts SCG3
+/squidhearts SCG2
+/squidhearts reset
+/difficulty hard
+/difficulty peaceful
