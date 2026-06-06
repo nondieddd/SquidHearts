@@ -14,7 +14,7 @@
       "com.me.nondied.squidhearts.client.SquidheartsDataGenerator"
     ],
     "client": [
-      "com.me.nondied.squidhearts.client.SquidheartsClient"
+      "com.me.nondied.squidhearts.client.SquidHeartsClient"
     ],
     "main": [
       "com.me.nondied.squidhearts.Squidhearts"

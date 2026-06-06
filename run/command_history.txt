@@ -24,3 +24,11 @@
 /kill
 /experience set @a 67 levels
 /difficulty hard
+/difficulty peaceful
+/time set day
+/squidhearts experience 67
+/squidhearts experience 1
+/squidhearts experience 3
+/squidhearts experience 666
+/squidhearts experience 67
+/squidhearts reset

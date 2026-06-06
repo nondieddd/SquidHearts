@@ -61,26 +61,20 @@ public abstract class InGameHudMixin {
     )
     private void modifyStatusSprites(DrawContext instance, Identifier texture, int x, int y, int width, int height) {
         String path = texture.getPath();
-
         if (path.contains("food") || path.contains("hunger") || path.contains("beef") || path.contains("meat")) {
             return;
         }
-
         if (path.contains("absorption")) {
             return;
         }
-
         if (path.contains("heart/container")) {
             instance.drawGuiTexture(Identifier.of("minecraft", "hud/heart/0"), x, y, width, height);
-            instance.drawGuiTexture(Identifier.of("minecraft", "hud/heart/container"), x, y, width, height);
             return;
         }
-
         if (path.contains("bubble")) {
             instance.drawGuiTexture(texture, x, y - 10, width, height);
             return;
         }
-
         instance.drawGuiTexture(texture, x, y, width, height);
     }
 
@@ -94,7 +88,12 @@ public abstract class InGameHudMixin {
         ci.cancel();
 
         MinecraftClient client = MinecraftClient.getInstance();
-        int level = client.player != null ? client.player.experienceLevel : 0;
+        int level = 0;
+        if (com.me.nondied.squidhearts.client.SquidHeartsClientState.visualExperience != -1) {
+            level = com.me.nondied.squidhearts.client.SquidHeartsClientState.visualExperience;
+        } else if (client.player != null) {
+            level = client.player.experienceLevel;
+        }
 
         if (level > 0) {
             client.getProfiler().push("expLevel");
@@ -125,7 +124,7 @@ public abstract class InGameHudMixin {
     )
     private void fixHotbarSelectionOffset(DrawContext instance, Identifier texture, int x, int y, int width, int height) {
         if (texture.getPath().contains("hotbar_selection")) {
-            instance.drawGuiTexture(texture, x + -1, y, width, height);
+            instance.drawGuiTexture(texture, x - 1, y, width, height);
         } else {
             instance.drawGuiTexture(texture, x, y, width, height);
         }
