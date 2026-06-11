@@ -7,9 +7,6 @@
       "renderFood": "Lnet/minecraft/class_329;method_58477(Lnet/minecraft/class_332;Lnet/minecraft/class_1657;II)V",
       "renderHealthBar": "Lnet/minecraft/class_329;method_37298(Lnet/minecraft/class_332;Lnet/minecraft/class_1657;IIIIFIIIZ)V",
       "renderStatusBars": "Lnet/minecraft/class_329;method_1760(Lnet/minecraft/class_332;)V"
-    },
-    "com/me/nondied/squidhearts/client/mixin/TightArmorMixin": {
-      "render(Lnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;ILnet/minecraft/entity/LivingEntity;FFFFFF)V": "Lnet/minecraft/class_970;method_17157(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;ILnet/minecraft/class_1309;FFFFFF)V"
     }
   },
   "data": {
@@ -21,9 +18,6 @@
         "renderFood": "Lnet/minecraft/class_329;method_58477(Lnet/minecraft/class_332;Lnet/minecraft/class_1657;II)V",
         "renderHealthBar": "Lnet/minecraft/class_329;method_37298(Lnet/minecraft/class_332;Lnet/minecraft/class_1657;IIIIFIIIZ)V",
         "renderStatusBars": "Lnet/minecraft/class_329;method_1760(Lnet/minecraft/class_332;)V"
-      },
-      "com/me/nondied/squidhearts/client/mixin/TightArmorMixin": {
-        "render(Lnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;ILnet/minecraft/entity/LivingEntity;FFFFFF)V": "Lnet/minecraft/class_970;method_17157(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;ILnet/minecraft/class_1309;FFFFFF)V"
       }
     }
   }

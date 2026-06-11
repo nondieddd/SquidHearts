@@ -3,8 +3,7 @@
   "package": "com.me.nondied.squidhearts.client.mixin",
   "compatibilityLevel": "JAVA_21",
   "client": [
-    "InGameHudMixin",
-    "TightArmorMixin"
+    "InGameHudMixin"
   ],
   "injectors": {
     "defaultRequire": 1
