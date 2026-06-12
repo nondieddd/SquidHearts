@@ -1,4 +1,3 @@
-/experience add Player628 10 levels
 /difficulty hard
 /experience add Player628 10 levels
 /experience add Player46 10 levels
@@ -42,3 +41,10 @@
 /squidhearts reset
 /difficulty hard
 /difficulty peaceful
+/squidhearts SCG4
+/squidhearts experience 666
+/squidhearts experience 10
+/squidhearts experience 136
+/squidhearts SCG4
+/squidhearts experience 136
+/squidhearts SCG4

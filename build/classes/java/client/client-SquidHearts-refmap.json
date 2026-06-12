@@ -2,10 +2,11 @@
   "mappings": {
     "com/me/nondied/squidhearts/client/mixin/InGameHudMixin": {
       "Lnet/minecraft/client/gui/hud/InGameHud;renderHealthBar(Lnet/minecraft/client/gui/DrawContext;Lnet/minecraft/entity/player/PlayerEntity;IIIIFIIIZ)V": "Lnet/minecraft/class_329;method_37298(Lnet/minecraft/class_332;Lnet/minecraft/class_1657;IIIIFIIIZ)V",
-      "renderExperienceBar": "Lnet/minecraft/class_329;method_1754(Lnet/minecraft/class_332;I)V",
-      "renderExperienceLevel": "Lnet/minecraft/class_329;method_56136(Lnet/minecraft/class_332;Lnet/minecraft/class_9779;)V",
+      "Lnet/minecraft/client/gui/hud/bar/Bar;drawExperienceLevel(Lnet/minecraft/client/gui/DrawContext;Lnet/minecraft/client/font/TextRenderer;I)V": "Lnet/minecraft/class_11223;method_70866(Lnet/minecraft/class_332;Lnet/minecraft/class_327;I)V",
+      "Lnet/minecraft/client/gui/hud/bar/Bar;renderBar(Lnet/minecraft/client/gui/DrawContext;Lnet/minecraft/client/render/RenderTickCounter;)V": "Lnet/minecraft/class_11223;method_70865(Lnet/minecraft/class_332;Lnet/minecraft/class_9779;)V",
       "renderFood": "Lnet/minecraft/class_329;method_58477(Lnet/minecraft/class_332;Lnet/minecraft/class_1657;II)V",
       "renderHealthBar": "Lnet/minecraft/class_329;method_37298(Lnet/minecraft/class_332;Lnet/minecraft/class_1657;IIIIFIIIZ)V",
+      "renderMainHud": "Lnet/minecraft/class_329;method_55805(Lnet/minecraft/class_332;Lnet/minecraft/class_9779;)V",
       "renderStatusBars": "Lnet/minecraft/class_329;method_1760(Lnet/minecraft/class_332;)V"
     }
   },
@@ -13,10 +14,11 @@
     "named:intermediary": {
       "com/me/nondied/squidhearts/client/mixin/InGameHudMixin": {
         "Lnet/minecraft/client/gui/hud/InGameHud;renderHealthBar(Lnet/minecraft/client/gui/DrawContext;Lnet/minecraft/entity/player/PlayerEntity;IIIIFIIIZ)V": "Lnet/minecraft/class_329;method_37298(Lnet/minecraft/class_332;Lnet/minecraft/class_1657;IIIIFIIIZ)V",
-        "renderExperienceBar": "Lnet/minecraft/class_329;method_1754(Lnet/minecraft/class_332;I)V",
-        "renderExperienceLevel": "Lnet/minecraft/class_329;method_56136(Lnet/minecraft/class_332;Lnet/minecraft/class_9779;)V",
+        "Lnet/minecraft/client/gui/hud/bar/Bar;drawExperienceLevel(Lnet/minecraft/client/gui/DrawContext;Lnet/minecraft/client/font/TextRenderer;I)V": "Lnet/minecraft/class_11223;method_70866(Lnet/minecraft/class_332;Lnet/minecraft/class_327;I)V",
+        "Lnet/minecraft/client/gui/hud/bar/Bar;renderBar(Lnet/minecraft/client/gui/DrawContext;Lnet/minecraft/client/render/RenderTickCounter;)V": "Lnet/minecraft/class_11223;method_70865(Lnet/minecraft/class_332;Lnet/minecraft/class_9779;)V",
         "renderFood": "Lnet/minecraft/class_329;method_58477(Lnet/minecraft/class_332;Lnet/minecraft/class_1657;II)V",
         "renderHealthBar": "Lnet/minecraft/class_329;method_37298(Lnet/minecraft/class_332;Lnet/minecraft/class_1657;IIIIFIIIZ)V",
+        "renderMainHud": "Lnet/minecraft/class_329;method_55805(Lnet/minecraft/class_332;Lnet/minecraft/class_9779;)V",
         "renderStatusBars": "Lnet/minecraft/class_329;method_1760(Lnet/minecraft/class_332;)V"
       }
     }
